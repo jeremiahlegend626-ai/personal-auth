@@ -1,0 +1,14 @@
+{
+  "name": "personal-auth/site",
+  "description": "Secure PHP personal website authentication",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "ext-openssl": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "phpmailer/phpmailer": "^7.1",
+    "pragmarx/google2fa": "9.1.0"
+  },
+  "config": {"sort-packages": true, "allow-plugins": {}}
+}

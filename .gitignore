@@ -1,0 +1,21 @@
+# Dependencies
+/vendor/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Private logs, reset links, and runtime files
+/var/*
+!/var/.gitkeep
+
+# Local machine files
+.DS_Store
+
+# Local or sensitive files
+.MAMA
+*.backup
+*.backup.*
+*.bak
+*.log
